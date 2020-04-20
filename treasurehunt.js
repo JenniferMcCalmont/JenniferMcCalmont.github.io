@@ -27,19 +27,23 @@ var decrement = () => {
 
 var changeChar = (loc) => {
     if(loc === winner) {
-        alert("You found Luke!")
-      document.getElementById(loc).innerHTML = "!"  
+        
+      document.getElementById(loc).innerHTML = "<img src='https://live.staticflickr.com/670/22157075442_6d96672b7b_b.jpg' height='200'>"
+      alert("You found Luke!") 
+      window.setTimeout(reloadPage, 3000);
     }
     else if(loc === loser) {
+        document.getElementById(loc).innerHTML = "<img src='https://pngimg.com/uploads/darth_vader/darth_vader_PNG7.png' height='200'>"
         alert("You found Vader!") 
-      document.getElementById(loc).innerHTML = "X"   
+        window.setTimeout(reloadPage, 3000);
     }
     else {
         counter = counter-1 
         document.getElementById("counter").innerHTML = counter
         if(counter === 0) {
-            alert("You lose!") 
+            alert("You lose!")
+            window.location.reload () 
+        }
+      document.getElementById(loc).innerHTML = "<img src='images/light-saber.png' height='30'>"  
     }
-      document.getElementById(loc).innerHTML = "<img src='images/light-saber.png' height='20'>"  
-}
 }
