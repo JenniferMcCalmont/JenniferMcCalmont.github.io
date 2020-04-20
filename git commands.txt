@@ -1,0 +1,13 @@
+// check the status
+git status
+
+// add all files to commit
+git add .
+// add individucal file
+git add index.html
+
+// commit to github
+git commit -m "The commit message."
+
+// push to github
+git push

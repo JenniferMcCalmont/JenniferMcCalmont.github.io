@@ -40,6 +40,6 @@ var changeChar = (loc) => {
         if(counter === 0) {
             alert("You lose!") 
     }
-      document.getElementById(loc).innerHTML = "0"  
+      document.getElementById(loc).innerHTML = "<img src='images/light-saber.png' height='20'>"  
 }
 }
