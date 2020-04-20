@@ -1,0 +1,25 @@
+body {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/500caca8e4b0e4a25027aa89/1467754402064-A5RYF97AK087NZOIP754/ke17ZwdGBToddI8pDm48kGSmwZs065TTT1vkPvFw4WpZw-zPPgdn4jUwVcJE1ZvWxYb2krSYGNt8NUBfJA7VeEJFbgE-7XRK3dMEBRBhUpykMGcs2YBXYRcQO49-7hbnmhM5Fr4u3vUJMGueDSqAW3tRpHLFEFMf3kog0V25w-4/image-asset.gif");
+}
+#Taco {
+    font-family: 'Exo 2', sans-serif;
+    color: gold;
+}
+
+#Info {
+    font-family: 'Exo 2', sans-serif;
+    color: gold;
+}
+div {
+    color:gold;
+    font-family: 'Exo 2', sans-serif;
+    font-size:20px;
+}
+td {
+    width: 20px;
+    height: 20px;
+}
+#Foot {
+    font-family: 'Exo 2', sans-serif;
+    color: gold;
+}
