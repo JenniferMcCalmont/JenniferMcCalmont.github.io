@@ -6,7 +6,7 @@ var reloadPage = () => {
 }
 
 let winner = Math.floor(Math.random()*40)
-    console.log(winner)
+    
     
 let loser = Math.floor(Math.random()*40)
 
